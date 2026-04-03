@@ -12,9 +12,14 @@ The following modular Shortcuts make it possible to create and share Unifi WLAN 
 * Signs the mobileconfig with your s/mime cert (if configured)
 * Shares the result (User Account as Plain Text or Mobileconfig)
 
-For on-device signature of the mobileconfig on your iOS device (iPhone / iPAD) the free AppStore App [Scriptable](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/de/app/scriptable/id1405459188&ved=2ahUKEwjUk-uHyNGTAxWxbvEDHS8YPAAQFnoECB8QAQ&usg=AOvVaw2WNuxj6WeSo4Wv4KW4j5Kp) is required, which will run the required JavaSCript code.
-<br/>Add the URL of your Radius Certificate in the config, if you want to avoid any user ask to trust the wlan when installing the mobileconfig on the device
-<br/>Add the Url of your s/mime PKCS12 if you want that the mobileconfig to be digitally signed, so that it is shown as trusted during installation on the device
+> [!NOTE]
+>Add the URL of your Radius Certificate in the config, if you want to avoid any user ask to trust the wlan when installing the mobileconfig on the device
+
+> [!NOTE]
+>Add the Url of your s/mime PKCS12 if you want that the mobileconfig to be digitally signed, so that it is shown as trusted during installation on the device
+
+> [!IMPORTANT]
+>For on-device signature of the mobileconfig on your iOS device (iPhone / iPAD) the free AppStore App [Scriptable](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/de/app/scriptable/id1405459188&ved=2ahUKEwjUk-uHyNGTAxWxbvEDHS8YPAAQFnoECB8QAQ&usg=AOvVaw2WNuxj6WeSo4Wv4KW4j5Kp) is required, which will run the required JavaSCript code.
 
 ### Start Point with iOS Contact to create Account for as Input Parameter
 
