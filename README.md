@@ -2,7 +2,7 @@
 iOS Shortcuts for Unifi gears
 <br/>
 
-## "Unifi WLAN Users" <br> Create and Share (Radius) User Accounts from iOS Contacts as text or Apple Config Profile (Mobileconfig)
+## "Unifi WLAN Users" <br/> Create and Share (Radius) User Accounts from iOS Contacts as text or Apple Config Profile (Mobileconfig)
 
 <br/>
 <p>
