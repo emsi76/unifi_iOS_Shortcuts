@@ -1,8 +1,8 @@
 # unifi_iOS_Shortcuts
 iOS Shortcuts for Unifi gears
 
-## "Unifi WLAN Users" - Create ad Share (Radius) User Accounts from iOS Contacts
-The following modular Shortcuts make it possible to create and Share Unifi WLAN User Access (Radius Users) for __WPA3 Enterprise Wlan__ on the Unifi Dream Machine (UDM Pro) by simply choosing an iOS Contact. With the option to create a __Mobileconfig - it's a one click profile install without the need to enter any password__ on the moble device.
+## "Unifi WLAN Users" - Create ad Share (Radius) User Accounts from iOS Contacts as text od Apple Mobileconfig
+The following modular Shortcuts make it possible to create and share Unifi WLAN User Access (Radius Users) for __WPA3 Enterprise Wlan__ on the Unifi Dream Machine (UDM Pro) by simply choosing an iOS Contact. With the option to create a __Mobileconfig - it's a one click profile install without the need to enter any password__ on the moble device.
 * Creates the Username (FirstName + First Letter of Last Name)
 * Generates a "random" password based on a hash of all data of the iOS contact with a configured password length
 * Checks if radius user exists and creates it if not existing
