@@ -11,7 +11,7 @@ iOS Shortcuts for Unifi gears
 
 iOS Contact &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Unifi Radius &nbsp; &nbsp; &nbsp;  &nbsp; Mobileconfig (or user/pass as txt)
 <br/>&nbsp;<br/>
-The following modular Shortcuts make it possible to create and share Unifi WLAN User Access (Radius Users) for __WPA3 Enterprise Wlan__ on the Unifi Dream Machine (UDM Pro) by simply choosing an iOS Contact. With the option to create and share via AirDrop a __Mobileconfig__, it's then a __one click install__ without the need to enter any password on the moble device.
+The following modular Shortcuts make it possible to create and share Unifi WLAN User Access (Radius Users) for __WPA3 Enterprise Wlan__ on the Unifi Dream Machine (UDM Pro) by simply choosing an iOS [Contact](https://apps.apple.com/de/app/kontakte/id1069512615&ved=2ahUKEwibvJOVqtKTAxVnk_0HHVdzEesQFnoECB0QAQ&usg=AOvVaw1Qs6n_VmzjWESGfwz8_NBL). With the option to create and share via AirDrop an [Apple configuration profile](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://support.apple.com/guide/apple-configurator-mac/create-and-edit-configuration-profiles-pmd85719196/mac&ved=2ahUKEwiprP_tqdKTAxUShv0HHTG7DKIQFnoECBwQAQ&usg=AOvVaw2x7peiDG4veEG8vEDxAXkS) __(Mobileconfig)__, it's then a __one click install__ without the need to enter any password on the moble device.
 
 * Creates the Username (FirstName + First Letter of Last Name)
 * Generates a "random" password based on a hash of all data of the iOS contact with a configured password length
