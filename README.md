@@ -5,11 +5,14 @@ iOS Shortcuts for Unifi gears
 ## "Unifi WLAN Users" <br> Create ad Share (Radius) User Accounts from iOS Contacts as text or Apple Mobileconfig
 
 <br/>
-<img src="https://github.com/user-attachments/assets/97d2e06d-06c2-451a-a665-2ffdb712b19c" width="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8618; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/150fbc7b-bc97-4601-8953-0b453c44c9c7" width="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8618; &nbsp;&nbsp;&nbsp;&nbsp;<img width="56" alt="mobileconfig" src="https://github.com/user-attachments/assets/7cd4d8ec-8c9d-401e-a24a-e4324d3523d1" />
-<br/>
+<p>
+<img src="https://github.com/user-attachments/assets/97d2e06d-06c2-451a-a665-2ffdb712b19c" width="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8618; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/150fbc7b-bc97-4601-8953-0b453c44c9c7" width="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8618; &nbsp;&nbsp;&nbsp;&nbsp;<img width="56" alt="mobileconfig" src="https://github.com/user-attachments/assets/7cd4d8ec-8c9d-401e-a24a-e4324d3523d1"/>
+</p>
+
 iOS Contact &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Unifi Radius &nbsp; &nbsp; &nbsp;  &nbsp; Mobileconfig (or user/pass as txt)
 <br/>&nbsp;<br/>
-The following modular Shortcuts make it possible to create and share Unifi WLAN User Access (Radius Users) for __WPA3 Enterprise Wlan__ on the Unifi Dream Machine (UDM Pro) by simply choosing an iOS Contact. With the option to create and share via AirDrop a __Mobileconfig, it's then a one click install without the need to enter any password__ on the moble device.
+The following modular Shortcuts make it possible to create and share Unifi WLAN User Access (Radius Users) for __WPA3 Enterprise Wlan__ on the Unifi Dream Machine (UDM Pro) by simply choosing an iOS Contact. With the option to create and share via AirDrop a __Mobileconfig__, it's then a __one click install__ without the need to enter any password on the moble device.
+
 * Creates the Username (FirstName + First Letter of Last Name)
 * Generates a "random" password based on a hash of all data of the iOS contact with a configured password length
 * Checks if radius user exists and creates it if not existing
@@ -19,6 +22,7 @@ The following modular Shortcuts make it possible to create and share Unifi WLAN 
 * Signs the mobileconfig with your s/mime cert (if configured)
 * Shares the result (User Account as Plain Text or Mobileconfig)
 
+&nbsp;<br/>
 > [!NOTE]
 >Add the URL of your Radius Certificate in the config, if you want to avoid any user ask to trust the wlan when installing the mobileconfig on the device
 
