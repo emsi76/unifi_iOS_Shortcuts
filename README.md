@@ -8,8 +8,8 @@ The following modular Shortcuts make it possible to create and share Unifi WLAN 
 * Checks if radius user exists and creates it if not existing
 * Lets you decide if you want to share the account data via text or mobileconfig
 * Creates mobileconfig (if chosen)
-* Adds the radius cert (if configured)
-* Signs the profile with your s/mime cert (if configured)
+* Adds your radius cert to the mobileconfig (if configured)
+* Signs the mobileconfig with your s/mime cert (if configured)
 * Shares the result (User Account as Plain Text or Mobileconfig)
 
 For on-device signature of the mobileconfig on your iOS device (iPhone / iPAD) the AppStore App [Scriptable](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/de/app/scriptable/id1405459188&ved=2ahUKEwjUk-uHyNGTAxWxbvEDHS8YPAAQFnoECB8QAQ&usg=AOvVaw2WNuxj6WeSo4Wv4KW4j5Kp) is required, which will run the required JavaSCript code.
